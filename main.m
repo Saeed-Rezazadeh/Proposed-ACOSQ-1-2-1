@@ -170,7 +170,7 @@ for delta = [0 5 10]
         fprintf (FileID , '\nfinal_SDR_2 = %f' , final_SDR_2(i)) ;
         fprintf (FileID , '\nindex = %d\n' , index) ;
     end
-    
+    % Variable final_SDR_3 provides the SDR values for proposed ACOSQ 1-2-1
     final_SDR_3 = zeros(SIZE , 1) ;
     for i = 1 : SIZE
         index = find (noise == i) ;
